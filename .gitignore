@@ -1,0 +1,12 @@
+# Ignore dependencies for both
+node_modules/
+*/node_modules/
+
+# Ignore env files (Security!)
+.env
+*/.env
+
+# Misc
+.DS_Store
+dist/
+build/
