@@ -5,7 +5,8 @@ node_modules/
 # Ignore env files (Security!)
 .env
 */.env
-*/.Route
+*/.App
+service.js
 # Misc
 .DS_Store
 dist/
