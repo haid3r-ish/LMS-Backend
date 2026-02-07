@@ -4,8 +4,8 @@ const bcrypt = require("bcrypt");
 const crypto = require("crypto");
 
 const User = require("@model/user")
-const { AppError } = require("@util/ErrorHandler");
-const { createSessionCookie } = require("@util/JwtHandler");
+const { AppError } = require("@util/errorHandler");
+const { createSessionCookie } = require("@util/jwtHandler");
 
 // AppError is specific Error Handler to manage customized errors under class Error
 
