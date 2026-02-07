@@ -1,5 +1,4 @@
 node_modules
-*/.Upload
+Upload/
 .env
-*/.package-lock.json
 
