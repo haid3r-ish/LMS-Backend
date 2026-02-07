@@ -1,7 +1,7 @@
 require("module-alias/register")
 
-const { CatchAsync } = require("@util/ErrorHandler");
-const { verifyNullish } = require("@util/OtherHandler");
+const { CatchAsync } = require("@util/errorHandler");
+const { verifyNullish } = require("@util/otherHandler");
 const authService = require("@service/auth");
 
 // VerifyNullish check whether any input is null or undefined
