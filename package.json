@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "_moduleAliases": {
+    "@util": "./Util",
+    "@model": "./Model",
+    "@service": "./Service",
+    "@controller": "./Controller",
+    "@middleware": "./Middleware",
+    "@route": "./Route",
+    "@app": "./app",
+    "@config": "./Config"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.9.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "module-alias": "^2.2.3",
+    "mongoose": "^9.1.5",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "pino": "^10.3.0",
+    "streamifier": "^0.1.1"
+  }
+}
