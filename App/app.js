@@ -15,9 +15,10 @@ const userRouter = require('@route/user');
 const app = express();
 
 // 1. Middleware
-app.use(helmet());app.use(cors({
-  origin: 'https://animated-bonbon-d8592f.netlify.app/', 
-  credentials: true                
+app.use(helmet());
+app.use(cors({
+  origin: 'https://animated-bonbon-d8592f.netlify.app', 
+  credentials: true 
 }));
 app.use(morgan("dev"))
 app.use(express.json({ limit: '10kb' }));
